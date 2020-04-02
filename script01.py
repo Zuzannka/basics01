@@ -3,8 +3,8 @@ a = input('Podaj pierwszą liczbę:')
 b = input('Podaj drugą liczbę:')
 option = bool(int(input("by dodać wpisz 1, by odjąć wpisz 0: ")))
 def calculate(a,b,option):
-    if option == False:
-        sum = float(a) + float(b)
+    if option:
+        sum = (float(a) + float(b))
         print (sum)
     else:
         dif = float(a) - float(b)
